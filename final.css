@@ -1,0 +1,36 @@
+.character-creation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.character-stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.character-stats > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="range"] {
+  width: 200px;
+}
+
+#character-img {
+  height: 200px;
+  width: 200px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('file:///U:/perso/nsi/python/projet_solo/epic.jpg');
+  background-size: cover;
+}
